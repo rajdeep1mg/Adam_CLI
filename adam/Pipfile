@@ -1,0 +1,21 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3.9'
+
+[packages]
+openapi-spec-validator = "==0.5.5"
+aiohttp = "==3.7.3"
+black = "*"
+parameterized = "*"
+nose = "*"
+ujson = "*"
+coloredlogs = "==15.0.1"
+coverage = "*"
+requests = "*"
+
+[dev-packages]
+black = '22.12.0'
